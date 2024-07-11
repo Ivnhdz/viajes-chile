@@ -33,19 +33,19 @@
         <div class="collapse navbar-collapse mx-5" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active text-white" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link active text-white" aria-current="page" href="#" class="scrollSuave">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active text-white" aria-current="page" href="#">Quienes
+              <a class="nav-link active text-white" aria-current="page" href="#quienes-somos" class="scrollSuave">Quienes
                 Somos</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active text-white" aria-current="page"
-                href="#">Destacados</a>
+                href="#destacados"  class="scrollSuave">Destacados</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active text-white" aria-current="page"
-                href="#">Contacto</a>
+                href="#contacto"  class="scrollSuave">Contacto</a>
             </li>
           </ul>
         </div>
@@ -80,8 +80,8 @@
     <!-- FIN CARRUSEL -->
 
     <!--INICIO SECTION QUIENES SOMOS -->
-    <section class=" bg-black quienes-somos">
-      <div><h3 class="text-center text-white">¿QUIÉNES SOMOS?</h3></div>
+    <section class=" bg-black quienes-somos d-none d-md-block">
+      <div><h3 class="text-center text-white" id="quienes-somos">¿QUIÉNES SOMOS?</h3></div>
       <hr class="hrblanco2">
       <div class="row d-flex justify-content-center">
         <div class="col-4">
@@ -108,7 +108,7 @@
 
     <!-- INICIO SECTION DESTACADOS -->
     <section class="bg-black">
-      <div><h3 class="text-center text-white">DESTACADOS</h3></div>
+      <div><h3 class="text-center text-white" id="destacados">DESTACADOS</h3></div>
       <hr class="hrblanco">
       <div class="row d-flex justify-content-center">
         <div class="card mx-3 p-0 rounded-1" style="width: 20rem;">
@@ -143,7 +143,7 @@
     <!-- INICIO FORMULARIO CONTACTO -->
      <section class="bg-black">
       <div>
-        <h3 class="contacto">CONTACTO</h3>
+        <h3 class="contacto" id="contacto">CONTACTO</h3>
         <hr class="hrblanco">
       </div>
     <form>
@@ -172,10 +172,10 @@
     <footer class="row d-flex align-items-center">
       <div class="col-5"><h4 class="text-center text-white">VIAJES CHILE</h4></div>
       <div class="col-5 mx-3 text-end text-white">
-        <i class="fa-brands fa-github fa-2x mx-1"></i>
-        <i class="fa-brands fa-linkedin fa-2x mx-1"></i>
-        <i class="fa-brands fa-square-twitter fa-2x mx-1"></i>
-        <i class="fa-brands fa-square-facebook fa-2x mx-1"></i>
+        <i class="fa-brands fa-github fa-2x mx-1 footer-icon" data-bs-toggle="tooltip" title="GitHub"></i>
+        <i class="fa-brands fa-linkedin fa-2x mx-1 footer-icon" data-bs-toggle="tooltip" title="LinkedIn"></i>
+        <i class="fa-brands fa-square-twitter fa-2x mx-1 footer-icon" data-bs-toggle="tooltip" title="Twitter"></i>
+        <i class="fa-brands fa-square-facebook fa-2x mx-1 footer-icon" data-bs-toggle="tooltip" title="Facebook"></i>
       </div>
     </footer>
     <!-- FIN FOOTER -->
